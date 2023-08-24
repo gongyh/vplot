@@ -228,7 +228,7 @@ impl VMatrix {
     }
 
     pub fn write_heatmap_html(&self, path: &str){
-        self.to_heatmap().to_html(&path);
+        self.to_heatmap().write_html(&path);
     }
 
     //if vmatrix.aggregate {
